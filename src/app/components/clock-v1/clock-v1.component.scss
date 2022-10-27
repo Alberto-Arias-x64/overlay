@@ -1,0 +1,15 @@
+*{
+    font-family: 'KumarOne';
+}
+div{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+}
+.needle{
+    position: absolute;
+    top: 2%;
+    left: 48.3%;
+    transform-origin: 50% 230%;
+    transition: all ease 200ms;
+}
