@@ -1,0 +1,14 @@
+.bar {
+    height: 150px;
+    width: 50px;
+    display: grid;
+    grid-auto-rows: auto;
+    gap: 2px;
+
+    div {
+        width: 100%;
+        height: 100%;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+}
