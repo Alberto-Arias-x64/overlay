@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { VerticalBarComponent } from './components/vertical-bar/vertical-bar.component';
 import { PrincipalComponent } from './views/principal/principal.component';
 import { ClockV1Component } from './components/clock-v1/clock-v1.component';
+import { ProgressCircularComponent } from './components/progress-circular/progress-circular.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VerticalBarComponent,
     PrincipalComponent,
-    ClockV1Component
+    ClockV1Component,
+    ProgressCircularComponent
   ],
   imports: [
     BrowserModule,
