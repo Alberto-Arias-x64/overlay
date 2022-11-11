@@ -7,6 +7,7 @@ import { VerticalBarComponent } from './components/vertical-bar/vertical-bar.com
 import { PrincipalComponent } from './views/principal/principal.component';
 import { ClockV1Component } from './components/clock-v1/clock-v1.component';
 import { ProgressCircularComponent } from './components/progress-circular/progress-circular.component';
+import { InstrumentsComponent } from './components/instruments/instruments.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProgressCircularComponent } from './components/progress-circular/progre
     VerticalBarComponent,
     PrincipalComponent,
     ClockV1Component,
-    ProgressCircularComponent
+    ProgressCircularComponent,
+    InstrumentsComponent
   ],
   imports: [
     BrowserModule,
