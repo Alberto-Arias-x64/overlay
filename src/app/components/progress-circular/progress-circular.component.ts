@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewChild, ElementRef, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, ViewChild, ElementRef, OnChanges, SimpleChanges } from '@angular/core';
 import { ClusterService } from 'src/app/services/cluster.service';
 
 @Component({

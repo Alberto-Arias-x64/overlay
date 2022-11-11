@@ -1,18 +1,20 @@
-<div>
-    <div>
-        <img src="" alt="">
-        <div>
-            <div>
-                <p>{{}}/350W</p>
-                <p>{{}}W/h</p>
+<div class="instruments">
+    <div class="oddemeter_container">
+        <img src="../../../assets/progress/bi_battery-full.svg" alt="">
+        <div class="oddometer">
+            <div class="oddometer_numbers">
+                <b>{{100}}<span class="text_especial">/350W</span></b>
+                <b>{{100}}<span class="text_especial">W/Min</span></b>
             </div>
-            <div>
-
+            <div class="oddometer_bar">
+                <div class="bar" #progress></div>
             </div>
         </div>
     </div>
-    <div>
-        <app-progress-circular [value]="value" image="../../../assets/progress/bi_battery-full.svg"></app-progress-circular>
+    <div class="circular_bars">
         <app-progress-circular [value]="value" image="../../../assets/progress/bi_battery-charging.svg"></app-progress-circular>
+        <app-progress-circular [value]="value" image="../../../assets/progress/temperature-high.svg"></app-progress-circular>
+        <app-progress-circular [value]="value" image="../../../assets/progress/bi_battery-charging.svg" style="visibility: hidden ;"></app-progress-circular>
+        <app-progress-circular [value]="value" image="../../../assets/progress/bi_battery-charging.svg" style="visibility: hidden ;"></app-progress-circular>
     </div>
 </div>
